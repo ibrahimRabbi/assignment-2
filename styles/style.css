@@ -1,0 +1,156 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Poppins&family=Ubuntu&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+/*=========================
+ =========================================header start==========================*/
+header{
+    background-color: rgb(252, 246, 225);
+    width: 100vw;
+}
+
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    padding: 20px 0px;
+}
+nav h1{
+    font-weight: bold;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+nav ul li{
+    list-style: none;
+}
+
+.title{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title .title-div{
+    width:  50%;
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+.title-div h1{
+   font-size: 2rem;
+   font-weight: 800;
+}
+.title-div p{
+    font-size: 12px;
+    color: rgb(139, 135, 135);
+    margin-top: 10px;
+}
+
+.btn{
+    padding: 7px 13px;
+    margin-top: 15px;
+    border: none;
+    background-color: crimson;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.title img{
+    width: 80%;
+    margin: 26px 0px;
+}
+
+
+/*=========================
+ =========================================header end==========================*/
+
+
+
+ /*=========================
+ =========================================Main start==========================*/
+    
+.feature-section{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px;
+    
+}
+
+.feature-section .img-div{
+    display: grid;
+    grid-template-columns:200px 200px;
+    grid-gap: 15px;
+    
+}
+.img-div img{
+width: 100%;
+}
+
+.feature-section .feature-title{
+    width: 40%;
+}
+
+.feature-title p{
+     font-size: 12px;
+    color: rgb(139, 135, 135);
+    margin-top: 10px;
+}
+
+.feature-title h1{
+    font-size: 1.6rem;
+    color: rgb(131, 127, 127);
+    font-weight:bold;
+}
+.feature-title h1>span{
+    color: black;
+}
+.feature-title h1>.f{
+    color:crimson;
+}
+
+ /*=========================
+ =========================================Main end==========================*/
+    
+
+
+
+ @media only screen and (max-width:576px) {
+    nav ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .title .title-div{
+        width: 90%;
+    }
+
+    .title img{
+    width: 80%;
+    }
+
+
+ }
