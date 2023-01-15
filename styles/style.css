@@ -90,14 +90,17 @@ nav ul li{
 
  /*=========================
  =========================================Main start==========================*/
-    
+   
+ 
+ /*feature section start*/
+
+
 .feature-section{
     display: flex;
     justify-content:space-evenly;
     align-items: center;
     margin-top: 30px;
     padding: 20px;
-    
 }
 
 .feature-section .img-div{
@@ -112,6 +115,7 @@ width: 100%;
 
 .feature-section .feature-title{
     width: 40%;
+     
 }
 
 .feature-title p{
@@ -132,13 +136,281 @@ width: 100%;
     color:crimson;
 }
 
+/*feature section  end*/
+
+
+
+
+
+/*service-flow section start*/
+
+.service-flow{
+    margin-top: 40px;
+    padding: 20px;
+}
+.service-flow .artical-section{   
+    display: flex;
+    justify-content:space-evenly; 
+}
+.artical-section img{
+    width:40%;
+
+}
+.artical-section .blogs{ 
+    width: 40%;
+    padding: 15px 0px;
+}
+
+.blogs .blog-title{
+    margin: 20px 0px;
+    
+}
+
+
+.blog-title h1{
+        border-left: 4px solid crimson;
+        padding:0px 10px;
+        margin-bottom: 10px;
+}
+.blog-title p{
+    font-size: 12px;
+    color: rgb(192, 182, 182);
+}
+
+.blogs .titles{
+     margin-top:40px ;
+}
+
+.titles article{
+    margin: 15px 0px;
+    padding: 20px;
+    border-radius:5px ;
+    box-shadow: 2px 2px 10px rgb(160, 156, 156);
+
+}
+
+article .art-head{
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+article .art-para{
+    font-size: 12px;
+    color: rgb(153, 147, 147);
+}
+
+.service-flow .experi{
+    background-color: crimson;
+    width: 135px;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    margin: auto;
+     position: relative;
+    top: -60px;
+    left: 60px;
+     
+} 
+
+/*service-flow section end*/
+
+/*fact-section start*/
+.fact-section{
+    width: 30%;
+    margin: 5px 0px 20px 70px;
+
+
+}
+.fact-section h1{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.fact-section p{
+    color: rgb(148, 147, 147);
+    font-size: 13px;
+}
+/*fact-section start*/
+
+
+
+
+/*archiment section start */
+
+.archivment-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 0px;   
+     
+}
+
+.archivment-section div{
+    border: 2px solid crimson;
+    padding: 25px;
+    text-align: center;
+    font-weight: bold;
+    width: 20%;
+    transition: 0.20s;
+    border-radius: 5px;
+}
+
+.archivment-section div h1{
+    font-size: 1.6rem;
+    color: rgb(71, 68, 68);
+}
+.archivment-section div p{
+    font-size: 14px;
+    color: rgb(121, 116, 116);
+}
+
+.archivment-section div:hover{
+    transform: scale(1.1) translateY(-20px);
+    box-shadow: 5px 10px 10px rgb(175, 169, 169);
+    background-color: aliceblue;
+}
+
+
+/*archivement section end*/
+
+
+
+
+
+/*extra section start*/
+
+.extra-section{
+ width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.extra-section .info-title{
+    width: 40%;
+    text-align: center;
+    margin: 40px 0px;
+     
+}
+.info-title h1{
+    font-weight: 800;
+    font-size: 1.6rem;
+    
+}
+
+.info-title p{
+    color:rgb(148, 147, 147) ;
+    font-size: 12px;
+}
+
+
+.extra-section .info-sec{
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-gap: 20px;
+}
+.extra-section .info-sec div{
+  padding: 20px;
+  text-align: center;
+   border: 1px solid rgb(199, 192, 192);
+}
+
+.info-sec div img{
+    width: 100%;
+     
+}
+.info-sec div p{
+    font-size: 13px;
+    color: rgb(153, 148, 148);
+    margin-top: 15px;
+}
+
+.extra-section .btn-div{
+    margin-top: 65px;
+}
+.btn-div .btnn{
+    background-color: crimson;
+    border: none;
+    color: aliceblue;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+
+
+/*extra section end*/
+
+
+/*sponser sec start*/
+
+.sponser{
+    width: 100%;
+    
+    margin-top: 40px;
+}
+
+.sponser-title{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+     
+}
+
+ .sponser-title h1{
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+.sponser-title p{
+    color:rgb(148, 147, 147) ;
+    font-size: 12px;
+}
+
+.sponser .sponser-item{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.sponser-item img{
+    width: 10%;
+}
+/*sponser sec end*/
+
+
+
+ 
+
  /*=========================
  =========================================Main end==========================*/
     
 
+ footer{
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+footer p{
+    background-color:rgb(252, 246, 225) ;
+    padding: 15px;
+    width: 70%;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(114, 109, 109);
+}
 
 
- @media only screen and (max-width:576px) {
+ @media only screen and (min-width:350px) and (max-width:576px) {
+    
+    header{
+        width: 100vw;
+    }
+    
     nav ul{
         flex-direction: column;
         gap: 10px;
@@ -149,8 +421,139 @@ width: 100%;
     }
 
     .title img{
-    width: 80%;
+    width: 90%;
     }
 
 
+
+
+
+
+
+
+
+
+
+    .feature-section{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .feature-section .feature-title{
+        width: 80%;
+        margin: auto;
+    }
+
+    .feature-section .img-div{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .artical-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .artical-section .blogs{
+        width: 80%;
+    }
+
+    .artical-section img{
+        width: 80%;
+    }
+
+    .service-flow .experi{
+        position: relative;
+         top: 20px;
+         left: 0px;
+    }
+
+
+
+
+
+
+
+
+    .fact-section{
+        width: 80%;
+        margin-top: 40px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .archivment-section{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .archivment-section div{
+        width: 40%;
+    }
+
+
+    .archivment-section div:hover{
+    transform: scale(1.1) translateY(0px);
+}
+
+
+
+
+
+
+
+
+
+
+.extra-section .info-title{
+    width: 80%;
+}
+
+.extra-section .info-sec{
+    grid-template-columns: repeat(1,1fr);
+}
+
+
+
+
+.sponser .sponser-title{
+    width: 90%;
+}
+
+.sponser .sponser-item{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sponser-item img{
+     width: 20%;
  }
+
+
+ footer p{
+    width: 80%;
+    
+
+ }
+
+ }
+
+  
